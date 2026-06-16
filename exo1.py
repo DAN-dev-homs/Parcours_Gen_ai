@@ -1,4 +1,5 @@
 import random
+from config import *
 
 print("Hi! Welcome to the Number Guessing Game.\nYou have 7 chances to guess the number. Let's start!")
 
@@ -9,7 +10,7 @@ print(f"\nYou have 7 chances to guess the number between {low} and {high}. Let's
 
 num = random.randint(low, high) 
 # Total allowed chances
-ch = 7 
+ch =7 
 # Guess counter
 gc = 0                         
 
